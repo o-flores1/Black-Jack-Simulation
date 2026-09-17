@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+        <meta charset = "UTF-8">
+		<meta name = "viewpoint" content = "width = device - width, initial - scale = 1.0">
+
+		<title>Blackjack Web Game</title>
+
+
+		<link 
+			href = "https://fonts.googleapis.com/css?family=Orbitron&display=swap"
+			rel = "stylesheet"
+		>
+
+		<link
+			rel = "stylesheet"
+			href = "styles.css"
+		>
+		<script src = "script.js" defer> 
+		</script>
+	</head>
+	<body>
+		<h1>RAHEEM BUSINESS PARK CASINO</h1>
+		<h2 id="displayBalance" >Balance: 100</h2>
+		<h2 id="dealerHand"></h2>
+		<h2 id="playerHand"></h2>
+		Bet Amount: $<input type="number" id="bet" value="5" ><br>
+		<button id="dealButton" onclick="deal()">Deal</button>
+		<button id="standButton" onclick="stand()" hidden>Stand</button>
+		<button id="hitButton" onclick="hit()" hidden>Hit</button>
+		
+	</body>
+</html>

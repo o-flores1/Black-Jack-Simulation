@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+#displayBalance {
+    text-align: right;
+}
+
+input,
+button {
+    font-family: "Orbitron", sans-serif;
+}
